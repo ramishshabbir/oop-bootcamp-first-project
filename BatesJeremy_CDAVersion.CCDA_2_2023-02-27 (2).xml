@@ -1,0 +1,2613 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:sdtc="urn:hl7-org:sdtc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions">
+  <realmCode code="US" />
+  <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040" />
+  <templateId root="2.16.840.1.113883.10.20.22.1.1" extension="2015-08-01" />
+  <templateId root="2.16.840.1.113883.10.20.22.1.1" />
+  <templateId root="2.16.840.1.113883.10.20.22.1.2" extension="2015-08-01" />
+  <templateId root="2.16.840.1.113883.10.20.22.1.2" />
+  <id root="2.16.840.1.113883.3.669" extension="faac3b74-77d9-4787-a433-7485084a4e15" />
+  <code code="34133-9" displayName="Summarization of Episode Note" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+  <title>Jeremy Bates Export Summary</title>
+  <effectiveTime value="20230227020249-0500" />
+  <confidentialityCode code="N" displayName="Normal Sharing" codeSystem="2.16.840.1.113883.5.25" codeSystemName="HL7 Confidentiality" />
+  <languageCode code="en-US" />
+  <recordTarget>
+    <patientRole>
+      <id extension="19632331198703" root="2.16.840.1.113883.3.669" />
+      <addr use="HP">
+        <streetAddressLine>123</streetAddressLine>
+        <city>Beaverton</city>
+        <state>OR</state>
+        <postalCode>97006</postalCode>
+        <country>US</country>
+      </addr>
+      <addr use="H">
+        <streetAddressLine>1357, Amber Dr</streetAddressLine>
+        <city>Beaverton</city>
+        <state>OR</state>
+        <postalCode>97006</postalCode>
+        <country>US</country>
+      </addr>
+      <telecom value="tel:+1-555-723-1544" use="HP" />
+      <telecom value="tel:+1-555-777-1234" use="MC" />
+      <patient>
+        <name use="L">
+          <prefix qualifier="AC">APRN.</prefix>
+          <given qualifier="CL">Jeremy</given>
+          <family>Bates</family>
+        </name>
+        <administrativeGenderCode code="M" displayName="Male" codeSystemName="HL7 AdministrativeGenderCodes" codeSystem="2.16.840.1.113883.5.1">
+          <originalText>AdministrativeGender codes are: M (Male), F (Female) or UN (Unknown).</originalText>
+        </administrativeGenderCode>
+        <birthTime value="19800801" />
+        <maritalStatusCode code="M" displayName="Married" codeSystemName="MaritalStatusCode" codeSystem="2.16.840.1.113883.5.2" />
+        <raceCode code="2106-3" displayName="White" codeSystemName="CDC Race and Ethnicity" codeSystem="2.16.840.1.113883.6.238" />
+        <ethnicGroupCode nullFlavor="UNK" />
+        <languageCommunication>
+          <languageCode nullFlavor="NI" />
+        </languageCommunication>
+      </patient>
+      <providerOrganization>
+        <id root="2.16.840.1.113883.3.669" extension="0002" />
+        <name>Get Well Clinic</name>
+        <telecom value="tel:+1-565-656-5656" use="WP" />
+        <telecom value="fax:+1-898-989-8989" use="WP" />
+        <addr>
+          <streetAddressLine>test address</streetAddressLine>
+          <streetAddressLine>test address 2</streetAddressLine>
+          <city>MINNEAPOLIS</city>
+          <state>MN</state>
+          <postalCode>55455</postalCode>
+          <country>US</country>
+        </addr>
+      </providerOrganization>
+    </patientRole>
+  </recordTarget>
+  <author>
+    <time value="20230227" />
+    <assignedAuthor>
+      <id extension="4878683364" root="2.16.840.1.113883.4.6" />
+      <addr>
+        <streetAddressLine>sadf</streetAddressLine>
+        <city>dsaf</city>
+        <state>SD</state>
+        <postalCode>97006</postalCode>
+        <country>US</country>
+      </addr>
+      <telecom nullFlavor="NI" />
+      <assignedPerson>
+        <name use="L">
+          <prefix>Dr.</prefix>
+          <given>Albert</given>
+          <family>Davis</family>
+        </name>
+      </assignedPerson>
+      <representedOrganization>
+        <id root="2.16.840.1.113883.3.669" extension="0001" />
+        <name>CureMD Live ISSUESSSS</name>
+        <telecom value="tel:+1-041-111-5423" use="WP" />
+        <addr>
+          <streetAddressLine>Test Adress 123</streetAddressLine>
+          <city>Lahore</city>
+          <state>NY</state>
+          <postalCode>54000</postalCode>
+          <country>US</country>
+        </addr>
+      </representedOrganization>
+    </assignedAuthor>
+  </author>
+  <custodian>
+    <assignedCustodian>
+      <representedCustodianOrganization>
+        <id root="2.16.840.1.113883.3.669" extension="0001" />
+        <name>CureMD Live ISSUESSSS</name>
+        <telecom value="tel:+1-041-111-5423" use="WP" />
+        <addr>
+          <streetAddressLine>Test Adress 123</streetAddressLine>
+          <city>Lahore</city>
+          <state>NY</state>
+          <postalCode>54000</postalCode>
+          <country>US</country>
+        </addr>
+      </representedCustodianOrganization>
+    </assignedCustodian>
+  </custodian>
+  <documentationOf>
+    <serviceEvent classCode="PCPR">
+      <effectiveTime>
+        <low value="20230227" />
+        <high value="20230227" />
+      </effectiveTime>
+      <performer typeCode="PRF">
+        <assignedEntity>
+          <id extension="4878683364" root="2.16.840.1.113883.4.6" />
+          <code nullFlavor="NI" />
+          <addr>
+            <streetAddressLine>sadf</streetAddressLine>
+            <city>dsaf</city>
+            <state>SD</state>
+            <postalCode>97006</postalCode>
+            <country>US</country>
+          </addr>
+          <telecom nullFlavor="NI" />
+          <assignedPerson>
+            <name use="L">
+              <prefix>Dr.</prefix>
+              <given>Albert</given>
+              <family>Davis</family>
+            </name>
+          </assignedPerson>
+          <representedOrganization>
+            <id root="2.16.840.1.113883.3.669" extension="0001" />
+            <name>CureMD Live ISSUESSSS</name>
+            <telecom value="tel:+1-041-111-5423" use="WP" />
+            <addr>
+              <streetAddressLine>Test Adress 123</streetAddressLine>
+              <city>Lahore</city>
+              <state>NY</state>
+              <postalCode>54000</postalCode>
+              <country>US</country>
+            </addr>
+          </representedOrganization>
+        </assignedEntity>
+      </performer>
+      <performer typeCode="PRF">
+        <assignedEntity>
+          <id root="dd21252d-0161-4821-895c-3aaa8e8e7570" />
+          <code />
+          <addr>
+            <streetAddressLine>sadf</streetAddressLine>
+            <city>dsaf</city>
+            <state>SD</state>
+            <postalCode>97006</postalCode>
+            <country>US</country>
+          </addr>
+          <telecom value="tel:+1-631-749-3567" use="WP" />
+          <assignedPerson>
+            <name>
+              <prefix>Dr.</prefix>
+              <given>Albert</given>
+              <family>Davis</family>
+            </name>
+          </assignedPerson>
+        </assignedEntity>
+      </performer>
+    </serviceEvent>
+  </documentationOf>
+  <componentOf>
+    <encompassingEncounter>
+      <id root="2213a7a7-737f-4a10-9003-97524bb65d86" />
+      <effectiveTime>
+        <low value="20230227" />
+        <high value="20230227" />
+      </effectiveTime>
+      <responsibleParty>
+        <assignedEntity>
+          <id extension="4878683364" root="2.16.840.1.113883.4.6" />
+          <code />
+          <addr>
+            <streetAddressLine>sadf</streetAddressLine>
+            <city>dsaf</city>
+            <state>SD</state>
+            <postalCode>97006</postalCode>
+            <country>US</country>
+          </addr>
+          <telecom nullFlavor="NI" />
+          <assignedPerson>
+            <name use="L">
+              <prefix>Dr.</prefix>
+              <given>Albert</given>
+              <family>Davis</family>
+            </name>
+          </assignedPerson>
+        </assignedEntity>
+      </responsibleParty>
+      <location>
+        <healthCareFacility>
+          <serviceProviderOrganization>
+            <id root="2.16.840.1.113883.3.669" extension="0002" />
+            <name>Get Well Clinic</name>
+            <telecom value="tel:+1-565-656-5656" use="WP" />
+            <telecom value="fax:+1-898-989-8989" use="WP" />
+            <addr>
+              <streetAddressLine>test address</streetAddressLine>
+              <streetAddressLine>test address 2</streetAddressLine>
+              <city>MINNEAPOLIS</city>
+              <state>MN</state>
+              <postalCode>55455</postalCode>
+              <country>US</country>
+            </addr>
+          </serviceProviderOrganization>
+        </healthCareFacility>
+      </location>
+    </encompassingEncounter>
+  </componentOf>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.6.1" extension="2015-08-01" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.6" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.6.1" />
+          <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" />
+          <title>Allergies and adverse reactions</title>
+          <text>
+            <table border="1" width="100%">
+              <thead>
+                <tr>
+                  <th>Substance</th>
+                  <th>Reaction</th>
+                  <th>Severity</th>
+                  <th>Start Date</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <content ID="allergy-1">Felbamate</content>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td>July 19, 2017</td>
+                  <td>active</td>
+                </tr>
+                <tr>
+                  <td>
+                    <content ID="allergy-2">Lasix</content>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td>July 19, 2017</td>
+                  <td>active</td>
+                </tr>
+                <tr>
+                  <td>
+                    <content ID="allergy-3">Skelid</content>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td>July 19, 2017</td>
+                  <td>active</td>
+                </tr>
+                <tr>
+                  <td>
+                    <content ID="allergy-4">Lisinopril</content>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td>July 19, 2017</td>
+                  <td>active</td>
+                </tr>
+                <tr>
+                  <td>
+                    <content ID="allergy-5">Lincomycin</content>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td>July 19, 2017</td>
+                  <td>active</td>
+                </tr>
+                <tr>
+                  <td>
+                    <content ID="allergy-6">Adderall</content>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td>July 19, 2017</td>
+                  <td>active</td>
+                </tr>
+                <tr>
+                  <td>
+                    <content ID="allergy-7">Sulfadiazine</content>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td>July 19, 2017</td>
+                  <td>active</td>
+                </tr>
+                <tr>
+                  <td>
+                    <content ID="allergy-8">Penicillin</content>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td>July 19, 2017</td>
+                  <td>active</td>
+                </tr>
+                <tr>
+                  <td>
+                    <content ID="allergy-9">Alcohol</content>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td>July 19, 2017</td>
+                  <td>active</td>
+                </tr>
+                <tr>
+                  <td>
+                    <content ID="allergy-10">Phenelzine</content>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td>July 19, 2017</td>
+                  <td>active</td>
+                </tr>
+                <tr>
+                  <td>
+                    <content ID="allergy-11">Ampicillin</content>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td>July 19, 2017</td>
+                  <td>active</td>
+                </tr>
+                <tr>
+                  <td>
+                    <content ID="allergy-12">Eggs or Egg-derived Products</content>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td>July 19, 2017</td>
+                  <td>active</td>
+                </tr>
+                <tr>
+                  <td>
+                    <content ID="allergy-13">Linezolid</content>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td>July 19, 2017</td>
+                  <td>active</td>
+                </tr>
+                <tr>
+                  <td>
+                    <content ID="allergy-14">Lipitor</content>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td>July 19, 2017</td>
+                  <td>active</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" extension="2015-08-01" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" />
+              <id root="aba0944f-30c7-4fc1-8e5d-bb3edc089009" />
+              <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ALLERGIES AND ADVERSE REACTIONS" />
+              <statusCode code="active" />
+              <effectiveTime>
+                <low value="20170719" />
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" extension="2014-06-09" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" />
+                  <id root="2325e843-8d6e-4196-ad0c-4038f0174ba6" />
+                  <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" />
+                  <statusCode code="completed" />
+                  <effectiveTime>
+                    <low value="20170719" />
+                    <high nullFlavor="UNK" />
+                  </effectiveTime>
+                  <value xsi:type="CD" code="416098002" displayName="Drug Allergy" codeSystemName="SNOMED CT" codeSystem="2.16.840.1.113883.6.96" />
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="201707190819-1000" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" nullFlavor="NA" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Mr.</prefix>
+                          <given>aaaaa</given>
+                          <family>Best</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <participant typeCode="CSM">
+                    <participantRole classCode="MANU">
+                      <playingEntity classCode="MMAT">
+                        <code code="24812" displayName="Felbamate" codeSystemName="RxNorm" codeSystem="2.16.840.1.113883.6.88">
+                          <originalText>
+                            <reference value="#allergy-1" />
+                          </originalText>
+                        </code>
+                        <name>Felbamate</name>
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                  <entryRelationship typeCode="SUBJ" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.28" />
+                      <code code="33999-4" displayName="Status" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+                      <statusCode code="completed" />
+                      <value codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" xsi:type="CE" displayName="active" code="55561003" />
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" extension="2015-08-01" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" />
+              <id root="248109e6-1ba6-4217-952d-c248a19ad28f" />
+              <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ALLERGIES AND ADVERSE REACTIONS" />
+              <statusCode code="active" />
+              <effectiveTime>
+                <low value="20170719" />
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" extension="2014-06-09" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" />
+                  <id root="66864acf-721d-4351-93b5-f044080fe6e5" />
+                  <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" />
+                  <statusCode code="completed" />
+                  <effectiveTime>
+                    <low value="20170719" />
+                    <high nullFlavor="UNK" />
+                  </effectiveTime>
+                  <value xsi:type="CD" code="416098002" displayName="Drug Allergy" codeSystemName="SNOMED CT" codeSystem="2.16.840.1.113883.6.96" />
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="201707190819-1000" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" nullFlavor="NA" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Mr.</prefix>
+                          <given>aaaaa</given>
+                          <family>Best</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <participant typeCode="CSM">
+                    <participantRole classCode="MANU">
+                      <playingEntity classCode="MMAT">
+                        <code code="202991" displayName="Lasix" codeSystemName="RxNorm" codeSystem="2.16.840.1.113883.6.88">
+                          <originalText>
+                            <reference value="#allergy-2" />
+                          </originalText>
+                        </code>
+                        <name>Lasix</name>
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                  <entryRelationship typeCode="SUBJ" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.28" />
+                      <code code="33999-4" displayName="Status" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+                      <statusCode code="completed" />
+                      <value codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" xsi:type="CE" displayName="active" code="55561003" />
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" extension="2015-08-01" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" />
+              <id root="ce49021b-5d6e-47b1-bc09-ac33ade4c8c0" />
+              <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ALLERGIES AND ADVERSE REACTIONS" />
+              <statusCode code="active" />
+              <effectiveTime>
+                <low value="20170719" />
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" extension="2014-06-09" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" />
+                  <id root="d79f7a6d-9e26-451b-bf5f-5d918b4f0c8b" />
+                  <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" />
+                  <statusCode code="completed" />
+                  <effectiveTime>
+                    <low value="20170719" />
+                    <high nullFlavor="UNK" />
+                  </effectiveTime>
+                  <value xsi:type="CD" code="416098002" displayName="Drug Allergy" codeSystemName="SNOMED CT" codeSystem="2.16.840.1.113883.6.96" />
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="201707190819-0900" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" nullFlavor="NA" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Mr.</prefix>
+                          <given>aaaaa</given>
+                          <family>Best</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <participant typeCode="CSM">
+                    <participantRole classCode="MANU">
+                      <playingEntity classCode="MMAT">
+                        <code code="152764" displayName="Skelid" codeSystemName="RxNorm" codeSystem="2.16.840.1.113883.6.88">
+                          <originalText>
+                            <reference value="#allergy-3" />
+                          </originalText>
+                        </code>
+                        <name>Skelid</name>
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                  <entryRelationship typeCode="SUBJ" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.28" />
+                      <code code="33999-4" displayName="Status" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+                      <statusCode code="completed" />
+                      <value codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" xsi:type="CE" displayName="active" code="55561003" />
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" extension="2015-08-01" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" />
+              <id root="0f7c30ed-1a2c-48fd-8649-8d45b42ebe31" />
+              <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ALLERGIES AND ADVERSE REACTIONS" />
+              <statusCode code="active" />
+              <effectiveTime>
+                <low value="20170719" />
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" extension="2014-06-09" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" />
+                  <id root="0571682e-6d51-4d35-b8e0-9aa09bd7c0b3" />
+                  <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" />
+                  <statusCode code="completed" />
+                  <effectiveTime>
+                    <low value="20170719" />
+                    <high nullFlavor="UNK" />
+                  </effectiveTime>
+                  <value xsi:type="CD" code="416098002" displayName="Drug Allergy" codeSystemName="SNOMED CT" codeSystem="2.16.840.1.113883.6.96" />
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="201707190819-0900" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" nullFlavor="NA" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Mr.</prefix>
+                          <given>aaaaa</given>
+                          <family>Best</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <participant typeCode="CSM">
+                    <participantRole classCode="MANU">
+                      <playingEntity classCode="MMAT">
+                        <code code="29046" displayName="Lisinopril" codeSystemName="RxNorm" codeSystem="2.16.840.1.113883.6.88">
+                          <originalText>
+                            <reference value="#allergy-4" />
+                          </originalText>
+                        </code>
+                        <name>Lisinopril</name>
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                  <entryRelationship typeCode="SUBJ" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.28" />
+                      <code code="33999-4" displayName="Status" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+                      <statusCode code="completed" />
+                      <value codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" xsi:type="CE" displayName="active" code="55561003" />
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" extension="2015-08-01" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" />
+              <id root="ca89aa08-2c7b-4709-82d5-b03424ed2fdf" />
+              <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ALLERGIES AND ADVERSE REACTIONS" />
+              <statusCode code="active" />
+              <effectiveTime>
+                <low value="20170719" />
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" extension="2014-06-09" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" />
+                  <id root="425048e4-e6e1-4313-9fdc-308b367affd0" />
+                  <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" />
+                  <statusCode code="completed" />
+                  <effectiveTime>
+                    <low value="20170719" />
+                    <high nullFlavor="UNK" />
+                  </effectiveTime>
+                  <value xsi:type="CD" code="416098002" displayName="Drug Allergy" codeSystemName="SNOMED CT" codeSystem="2.16.840.1.113883.6.96" />
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="201707190819-0900" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" nullFlavor="NA" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Mr.</prefix>
+                          <given>aaaaa</given>
+                          <family>Best</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <participant typeCode="CSM">
+                    <participantRole classCode="MANU">
+                      <playingEntity classCode="MMAT">
+                        <code code="6398" displayName="Lincomycin" codeSystemName="RxNorm" codeSystem="2.16.840.1.113883.6.88">
+                          <originalText>
+                            <reference value="#allergy-5" />
+                          </originalText>
+                        </code>
+                        <name>Lincomycin</name>
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                  <entryRelationship typeCode="SUBJ" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.28" />
+                      <code code="33999-4" displayName="Status" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+                      <statusCode code="completed" />
+                      <value codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" xsi:type="CE" displayName="active" code="55561003" />
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" extension="2015-08-01" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" />
+              <id root="733e4fb0-3a97-4f39-9dbb-e4c6872c4904" />
+              <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ALLERGIES AND ADVERSE REACTIONS" />
+              <statusCode code="active" />
+              <effectiveTime>
+                <low value="20170719" />
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" extension="2014-06-09" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" />
+                  <id root="96f6c82f-547a-4aae-b9ca-b6160cf1921d" />
+                  <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" />
+                  <statusCode code="completed" />
+                  <effectiveTime>
+                    <low value="20170719" />
+                    <high nullFlavor="UNK" />
+                  </effectiveTime>
+                  <value xsi:type="CD" code="416098002" displayName="Drug Allergy" codeSystemName="SNOMED CT" codeSystem="2.16.840.1.113883.6.96" />
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="201707190819-0900" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" nullFlavor="NA" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Mr.</prefix>
+                          <given>aaaaa</given>
+                          <family>Best</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <participant typeCode="CSM">
+                    <participantRole classCode="MANU">
+                      <playingEntity classCode="MMAT">
+                        <code code="84815" displayName="Adderall" codeSystemName="RxNorm" codeSystem="2.16.840.1.113883.6.88">
+                          <originalText>
+                            <reference value="#allergy-6" />
+                          </originalText>
+                        </code>
+                        <name>Adderall</name>
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                  <entryRelationship typeCode="SUBJ" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.28" />
+                      <code code="33999-4" displayName="Status" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+                      <statusCode code="completed" />
+                      <value codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" xsi:type="CE" displayName="active" code="55561003" />
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" extension="2015-08-01" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" />
+              <id root="1d9067ab-c386-4b9b-a5dc-4ad21e579686" />
+              <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ALLERGIES AND ADVERSE REACTIONS" />
+              <statusCode code="active" />
+              <effectiveTime>
+                <low value="20170719" />
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" extension="2014-06-09" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" />
+                  <id root="ddb50e3c-6f42-42ac-9b4f-8559b7806c93" />
+                  <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" />
+                  <statusCode code="completed" />
+                  <effectiveTime>
+                    <low value="20170719" />
+                    <high nullFlavor="UNK" />
+                  </effectiveTime>
+                  <value xsi:type="CD" code="416098002" displayName="Drug Allergy" codeSystemName="SNOMED CT" codeSystem="2.16.840.1.113883.6.96" />
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="201707190819-0900" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" nullFlavor="NA" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Mr.</prefix>
+                          <given>aaaaa</given>
+                          <family>Best</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <participant typeCode="CSM">
+                    <participantRole classCode="MANU">
+                      <playingEntity classCode="MMAT">
+                        <code code="10171" displayName="Sulfadiazine" codeSystemName="RxNorm" codeSystem="2.16.840.1.113883.6.88">
+                          <originalText>
+                            <reference value="#allergy-7" />
+                          </originalText>
+                        </code>
+                        <name>Sulfadiazine</name>
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                  <entryRelationship typeCode="SUBJ" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.28" />
+                      <code code="33999-4" displayName="Status" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+                      <statusCode code="completed" />
+                      <value codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" xsi:type="CE" displayName="active" code="55561003" />
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" extension="2015-08-01" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" />
+              <id root="34d3251a-1450-4485-b2cc-9e1de4d123d6" />
+              <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ALLERGIES AND ADVERSE REACTIONS" />
+              <statusCode code="active" />
+              <effectiveTime>
+                <low value="20170719" />
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" extension="2014-06-09" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" />
+                  <id root="0943507c-3501-4c4a-b57a-3b2d026a44a9" />
+                  <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" />
+                  <statusCode code="completed" />
+                  <effectiveTime>
+                    <low value="20170719" />
+                    <high nullFlavor="UNK" />
+                  </effectiveTime>
+                  <value xsi:type="CD" code="416098002" displayName="Drug Allergy" codeSystemName="SNOMED CT" codeSystem="2.16.840.1.113883.6.96" />
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="201707190819-0900" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" nullFlavor="NA" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Mr.</prefix>
+                          <given>aaaaa</given>
+                          <family>Best</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <participant typeCode="CSM">
+                    <participantRole classCode="MANU">
+                      <playingEntity classCode="MMAT">
+                        <code code="7986" displayName="Penicillin" codeSystemName="RxNorm" codeSystem="2.16.840.1.113883.6.88">
+                          <originalText>
+                            <reference value="#allergy-8" />
+                          </originalText>
+                        </code>
+                        <name>Penicillin</name>
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                  <entryRelationship typeCode="SUBJ" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.28" />
+                      <code code="33999-4" displayName="Status" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+                      <statusCode code="completed" />
+                      <value codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" xsi:type="CE" displayName="active" code="55561003" />
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" extension="2015-08-01" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" />
+              <id root="1902f5ae-8e88-49f1-847a-b3ecd6067f32" />
+              <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ALLERGIES AND ADVERSE REACTIONS" />
+              <statusCode code="active" />
+              <effectiveTime>
+                <low value="20170719" />
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" extension="2014-06-09" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" />
+                  <id root="63598469-22bf-4c6a-8904-3756d34ad8cf" />
+                  <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" />
+                  <statusCode code="completed" />
+                  <effectiveTime>
+                    <low value="20170719" />
+                    <high nullFlavor="UNK" />
+                  </effectiveTime>
+                  <value xsi:type="CD" code="416098002" displayName="Drug Allergy" codeSystemName="SNOMED CT" codeSystem="2.16.840.1.113883.6.96" />
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="201707190819-0900" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" nullFlavor="NA" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Mr.</prefix>
+                          <given>aaaaa</given>
+                          <family>Best</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <participant typeCode="CSM">
+                    <participantRole classCode="MANU">
+                      <playingEntity classCode="MMAT">
+                        <code code="455" displayName="Alcohol" codeSystemName="RxNorm" codeSystem="2.16.840.1.113883.6.88">
+                          <originalText>
+                            <reference value="#allergy-9" />
+                          </originalText>
+                        </code>
+                        <name>Alcohol</name>
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                  <entryRelationship typeCode="SUBJ" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.28" />
+                      <code code="33999-4" displayName="Status" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+                      <statusCode code="completed" />
+                      <value codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" xsi:type="CE" displayName="active" code="55561003" />
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" extension="2015-08-01" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" />
+              <id root="d0d4f013-92eb-4fc4-90e7-8f1a576f24fb" />
+              <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ALLERGIES AND ADVERSE REACTIONS" />
+              <statusCode code="active" />
+              <effectiveTime>
+                <low value="20170719" />
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" extension="2014-06-09" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" />
+                  <id root="ba2ed95c-aeba-4514-b5ca-6cf60c218e29" />
+                  <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" />
+                  <statusCode code="completed" />
+                  <effectiveTime>
+                    <low value="20170719" />
+                    <high nullFlavor="UNK" />
+                  </effectiveTime>
+                  <value xsi:type="CD" code="416098002" displayName="Drug Allergy" codeSystemName="SNOMED CT" codeSystem="2.16.840.1.113883.6.96" />
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="201707190819-0900" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" nullFlavor="NA" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Mr.</prefix>
+                          <given>aaaaa</given>
+                          <family>Best</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <participant typeCode="CSM">
+                    <participantRole classCode="MANU">
+                      <playingEntity classCode="MMAT">
+                        <code code="8123" displayName="Phenelzine" codeSystemName="RxNorm" codeSystem="2.16.840.1.113883.6.88">
+                          <originalText>
+                            <reference value="#allergy-10" />
+                          </originalText>
+                        </code>
+                        <name>Phenelzine</name>
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                  <entryRelationship typeCode="SUBJ" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.28" />
+                      <code code="33999-4" displayName="Status" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+                      <statusCode code="completed" />
+                      <value codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" xsi:type="CE" displayName="active" code="55561003" />
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" extension="2015-08-01" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" />
+              <id root="37643dd6-3275-43e1-b69b-7a9b9d55533d" />
+              <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ALLERGIES AND ADVERSE REACTIONS" />
+              <statusCode code="active" />
+              <effectiveTime>
+                <low value="20170719" />
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" extension="2014-06-09" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" />
+                  <id root="8a4e262f-d594-4e5e-b5ce-1f694febda6e" />
+                  <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" />
+                  <statusCode code="completed" />
+                  <effectiveTime>
+                    <low value="20170719" />
+                    <high nullFlavor="UNK" />
+                  </effectiveTime>
+                  <value xsi:type="CD" code="416098002" displayName="Drug Allergy" codeSystemName="SNOMED CT" codeSystem="2.16.840.1.113883.6.96" />
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="201707190819-0900" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" nullFlavor="NA" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Mr.</prefix>
+                          <given>aaaaa</given>
+                          <family>Best</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <participant typeCode="CSM">
+                    <participantRole classCode="MANU">
+                      <playingEntity classCode="MMAT">
+                        <code code="733" displayName="Ampicillin" codeSystemName="RxNorm" codeSystem="2.16.840.1.113883.6.88">
+                          <originalText>
+                            <reference value="#allergy-11" />
+                          </originalText>
+                        </code>
+                        <name>Ampicillin</name>
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                  <entryRelationship typeCode="SUBJ" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.28" />
+                      <code code="33999-4" displayName="Status" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+                      <statusCode code="completed" />
+                      <value codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" xsi:type="CE" displayName="active" code="55561003" />
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" extension="2015-08-01" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" />
+              <id root="ed894282-cc1e-43dc-b22e-20ae7754d772" />
+              <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ALLERGIES AND ADVERSE REACTIONS" />
+              <statusCode code="active" />
+              <effectiveTime>
+                <low value="20170719" />
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" extension="2014-06-09" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" />
+                  <id root="f643d4ef-c653-4e81-807e-3aafef070f2a" />
+                  <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" />
+                  <statusCode code="completed" />
+                  <effectiveTime>
+                    <low value="20170719" />
+                    <high nullFlavor="UNK" />
+                  </effectiveTime>
+                  <value xsi:type="CD" code="419199007" displayName="Allergy to Substance" codeSystemName="SNOMED CT" codeSystem="2.16.840.1.113883.6.96" />
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="201707190819-0900" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" nullFlavor="NA" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Mr.</prefix>
+                          <given>aaaaa</given>
+                          <family>Best</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <participant typeCode="CSM">
+                    <participantRole classCode="MANU">
+                      <playingEntity classCode="MMAT">
+                        <code code="91930004" displayName="Eggs or Egg-derived Products" codeSystemName="SNOMED CT" codeSystem="2.16.840.1.113883.6.96">
+                          <originalText>
+                            <reference value="#allergy-12" />
+                          </originalText>
+                        </code>
+                        <name>Eggs or Egg-derived Products</name>
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                  <entryRelationship typeCode="SUBJ" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.28" />
+                      <code code="33999-4" displayName="Status" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+                      <statusCode code="completed" />
+                      <value codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" xsi:type="CE" displayName="active" code="55561003" />
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" extension="2015-08-01" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" />
+              <id root="e5b91c91-122b-437a-9cfc-cefd7cbc1bde" />
+              <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ALLERGIES AND ADVERSE REACTIONS" />
+              <statusCode code="active" />
+              <effectiveTime>
+                <low value="20170719" />
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" extension="2014-06-09" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" />
+                  <id root="5e338edd-e98d-4995-aa33-3b566933516d" />
+                  <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" />
+                  <statusCode code="completed" />
+                  <effectiveTime>
+                    <low value="20170719" />
+                    <high nullFlavor="UNK" />
+                  </effectiveTime>
+                  <value xsi:type="CD" code="416098002" displayName="Drug Allergy" codeSystemName="SNOMED CT" codeSystem="2.16.840.1.113883.6.96" />
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="201707190819-0900" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" nullFlavor="NA" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Mr.</prefix>
+                          <given>aaaaa</given>
+                          <family>Best</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <participant typeCode="CSM">
+                    <participantRole classCode="MANU">
+                      <playingEntity classCode="MMAT">
+                        <code code="190376" displayName="Linezolid" codeSystemName="RxNorm" codeSystem="2.16.840.1.113883.6.88">
+                          <originalText>
+                            <reference value="#allergy-13" />
+                          </originalText>
+                        </code>
+                        <name>Linezolid</name>
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                  <entryRelationship typeCode="SUBJ" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.28" />
+                      <code code="33999-4" displayName="Status" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+                      <statusCode code="completed" />
+                      <value codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" xsi:type="CE" displayName="active" code="55561003" />
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" extension="2015-08-01" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" />
+              <id root="0ae5baea-3608-407b-bb63-e0809827b349" />
+              <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ALLERGIES AND ADVERSE REACTIONS" />
+              <statusCode code="active" />
+              <effectiveTime>
+                <low value="20170719" />
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" extension="2014-06-09" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" />
+                  <id root="caf908bd-d450-4fb1-bf2d-4e2299059e8a" />
+                  <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" />
+                  <statusCode code="completed" />
+                  <effectiveTime>
+                    <low value="20170719" />
+                    <high nullFlavor="UNK" />
+                  </effectiveTime>
+                  <value xsi:type="CD" code="416098002" displayName="Drug Allergy" codeSystemName="SNOMED CT" codeSystem="2.16.840.1.113883.6.96" />
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="201707190819-0900" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" nullFlavor="NA" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Mr.</prefix>
+                          <given>aaaaa</given>
+                          <family>Best</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <participant typeCode="CSM">
+                    <participantRole classCode="MANU">
+                      <playingEntity classCode="MMAT">
+                        <code code="153165" displayName="Lipitor" codeSystemName="RxNorm" codeSystem="2.16.840.1.113883.6.88">
+                          <originalText>
+                            <reference value="#allergy-14" />
+                          </originalText>
+                        </code>
+                        <name>Lipitor</name>
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                  <entryRelationship typeCode="SUBJ" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.28" />
+                      <code code="33999-4" displayName="Status" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+                      <statusCode code="completed" />
+                      <value codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" xsi:type="CE" displayName="active" code="55561003" />
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.1.1" extension="2014-06-09" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.1" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.1.1" />
+          <code code="10160-0" displayName="History of medication use" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+          <title>Medications</title>
+          <text>
+            <table border="1" width="100%">
+              <thead>
+                <tr>
+                  <th>Medication</th>
+                  <th>Instructions</th>
+                  <th>Date</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Lipitor 10 MG Oral Tablet</td>
+                  <td>
+                    <content ID="sig-1">1 Tablet(s) , daily</content>
+                  </td>
+                  <td>February 25, 2023 - March 4, 2023</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry typeCode="DRIV">
+            <substanceAdministration classCode="SBADM" moodCode="INT">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16" extension="2014-06-09" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.16" />
+              <id root="818ce501-2959-44fd-9ccd-46f3380e8ab7" />
+              <statusCode code="completed" />
+              <effectiveTime xsi:type="IVL_TS">
+                <low value="20230225" />
+                <high value="20230304" />
+              </effectiveTime>
+              <effectiveTime xsi:type="PIVL_TS" institutionSpecified="true" operator="A">
+                <period value="1" unit="d" />
+              </effectiveTime>
+              <routeCode code="C38288" displayName="ORAL" codeSystemName="NCI Thesaurus" codeSystem="2.16.840.1.113883.3.26.1.1" />
+              <doseQuantity value="1" />
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23" extension="2014-06-09" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23" />
+                  <manufacturedMaterial>
+                    <code code="617314" displayName="Lipitor 10 MG Oral Tablet" codeSystemName="RxNorm" codeSystem="2.16.840.1.113883.6.88" />
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <author>
+                <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                <time value="202302240225-3700" />
+                <assignedAuthor>
+                  <id root="2.16.840.1.113883.4.6" extension="4878683364" />
+                  <assignedPerson>
+                    <name>
+                      <prefix>Dr.</prefix>
+                      <given>Albert</given>
+                      <family>Davis</family>
+                    </name>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                    <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                    <name>CureMD Live ISSUESSSS</name>
+                    <telecom value="0411115423" />
+                  </representedOrganization>
+                </assignedAuthor>
+              </author>
+              <entryRelationship typeCode="COMP">
+                <substanceAdministration classCode="SBADM" moodCode="INT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.147" />
+                  <code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medication Instructions" />
+                  <text>
+                    <reference value="#sig-1" />
+                  </text>
+                  <consumable>
+                    <manufacturedProduct>
+                      <manufacturedLabeledDrug nullFlavor="NA" />
+                    </manufacturedProduct>
+                  </consumable>
+                </substanceAdministration>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.5" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.5" extension="2015-08-01" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.5.1" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.5.1" extension="2015-08-01" />
+          <code code="11450-4" displayName="Problem List" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+          <title>Problems</title>
+          <text>
+            <table border="1" width="100%">
+              <thead>
+                <tr>
+                  <th>Condition</th>
+                  <th>Date</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <content ID="problem-1">Anxiety</content>
+                  </td>
+                  <td>February 27, 2023 </td>
+                  <td>active</td>
+                </tr>
+                <tr>
+                  <td>
+                    <content ID="problem-2">Fever</content>
+                  </td>
+                  <td>February 24, 2023 </td>
+                  <td>active</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01" />
+              <id root="00000000-0000-0000-0000-00CMDM236067" />
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern" />
+              <statusCode code="active" />
+              <effectiveTime>
+                <low value="20230227000000" />
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01" />
+                  <id root="00000000-0000-0000-0000-00CMDM236067" />
+                  <code code="282291009" displayName="Diagnosis" codeSystemName="SNOMED CT" codeSystem="2.16.840.1.113883.6.96">
+                    <translation code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis" />
+                  </code>
+                  <text>
+                    <reference value="#problem-1" />
+                  </text>
+                  <statusCode code="completed" />
+                  <effectiveTime>
+                    <low value="20230227000000" />
+                  </effectiveTime>
+                  <value xsi:type="CD" code="48694002" displayName="Anxiety" codeSystemName="SNOMED CT" codeSystem="2.16.840.1.113883.6.96">
+                    <translation code="F41.9" displayName="Anxiety" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD-10-CM" />
+                  </value>
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="202302270212-2300" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" extension="4878683364" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Dr.</prefix>
+                          <given>Albert</given>
+                          <family>Davis</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01" />
+              <id root="00000000-0000-0000-0000-00CMDM236054" />
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern" />
+              <statusCode code="active" />
+              <effectiveTime>
+                <low value="20230224000000" />
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01" />
+                  <id root="00000000-0000-0000-0000-00CMDM236054" />
+                  <code code="282291009" displayName="Diagnosis" codeSystemName="SNOMED CT" codeSystem="2.16.840.1.113883.6.96">
+                    <translation code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis" />
+                  </code>
+                  <text>
+                    <reference value="#problem-2" />
+                  </text>
+                  <statusCode code="completed" />
+                  <effectiveTime>
+                    <low value="20230224000000" />
+                  </effectiveTime>
+                  <value xsi:type="CD" code="386661006" displayName="Fever" codeSystemName="SNOMED CT" codeSystem="2.16.840.1.113883.6.96">
+                    <translation code="R50.9" displayName="Fever" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD-10-CM" />
+                  </value>
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="202302240232-0700" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" extension="4878683364" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Dr.</prefix>
+                          <given>Albert</given>
+                          <family>Davis</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.22" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.22.1" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.22.1" extension="2015-08-01" />
+          <code code="46240-8" displayName="HISTORY OF ENCOUNTERS" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+          <title>Encounter Diagnosis</title>
+          <text>
+            <table border="1" width="100%">
+              <thead>
+                <tr>
+                  <th>Code</th>
+                  <th>Description</th>
+                  <th>Start Date</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>F41.9</td>
+                  <td>Anxiety</td>
+                  <td>February 27, 2023 </td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry typeCode="DRIV">
+            <encounter classCode="ENC" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.49" extension="2015-08-01" />
+              <id root="29eb6f42-1481-408f-96b4-745632bc1703" />
+              <code xsi:type="CE" code="29308-4" displayName="ENCOUNTER DIAGNOSIS" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+              <effectiveTime>
+                <low value="20230227021237" />
+              </effectiveTime>
+              <performer typeCode="PRF">
+                <assignedEntity>
+                  <id extension="4878683364" root="2.16.840.1.113883.4.6" />
+                  <code nullFlavor="NI" />
+                  <addr>
+                    <streetAddressLine>sadf</streetAddressLine>
+                    <streetAddressLine>Davis Rd</streetAddressLine>
+                    <city>dsaf</city>
+                    <state>SD</state>
+                    <postalCode>97006</postalCode>
+                    <country>US</country>
+                  </addr>
+                  <telecom nullFlavor="NI" />
+                  <assignedPerson>
+                    <name use="L">
+                      <prefix>Dr.</prefix>
+                      <given>Albert</given>
+                      <family>Davis</family>
+                    </name>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="2.16.840.1.113883.3.669" extension="0001" />
+                    <name>CureMD Live ISSUESSSS</name>
+                    <telecom value="tel:+1-041-111-5423" use="WP" />
+                    <addr>
+                      <streetAddressLine>Test Adress 123</streetAddressLine>
+                      <city>Lahore</city>
+                      <state>NY</state>
+                      <postalCode>54000</postalCode>
+                      <country>US</country>
+                    </addr>
+                  </representedOrganization>
+                </assignedEntity>
+              </performer>
+              <entryRelationship typeCode="SUBJ">
+                <act classCode="ACT" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.80" extension="2015-08-01" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.80" />
+                  <id root="808241bd-44f8-4198-a329-718817872da3" />
+                  <code code="29308-4" displayName="Encounter Diagnosis" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+                  <effectiveTime>
+                    <low value="20230227000000" />
+                  </effectiveTime>
+                  <entryRelationship typeCode="SUBJ" inversionInd="false">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                      <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01" />
+                      <id root="808241bd-44f8-4198-a329-718817872da3" />
+                      <code code="409586006" displayName="Diagnosis" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT">
+                        <translation code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis" />
+                      </code>
+                      <statusCode code="completed" />
+                      <effectiveTime>
+                        <low value="20230227000000" />
+                      </effectiveTime>
+                      <value xsi:type="CD" code="48694002" displayName="Anxiety" codeSystemName="SNOMED CT" codeSystem="2.16.840.1.113883.6.96">
+                        <translation code="F41.9" displayName="Anxiety" codeSystemName="ICD-10-CM" codeSystem="2.16.840.1.113883.6.90" />
+                      </value>
+                    </observation>
+                  </entryRelationship>
+                </act>
+              </entryRelationship>
+            </encounter>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.2" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.2.1" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.2.1" extension="2014-06-09" />
+          <code code="11369-6" displayName="History of immunizations" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+          <title>Immunizations</title>
+          <text>
+            <table border="1" width="100%">
+              <thead>
+                <tr>
+                  <th>Vaccine</th>
+                  <th>Date</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <content ID="Immun-1">Hep A, adult</content>
+                  </td>
+                  <td>February 27, 2023</td>
+                  <td>
+                        Refused
+                      </td>
+                </tr>
+                <tr>
+                  <td>
+                    <content ID="Immun-2">COVID-19 vaccine, vector-nr, rS-Ad26, PF, 0.5 mL</content>
+                  </td>
+                  <td>February 27, 2023</td>
+                  <td>
+                        Administered
+                      </td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry typeCode="DRIV">
+            <substanceAdministration classCode="SBADM" moodCode="EVN" negationInd="true">
+              <templateId root="2.16.840.1.113883.10.20.22.4.52" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.52" extension="2015-08-01" />
+              <id root="5a802bad-c979-4ebc-9fba-2de70d882283" />
+              <statusCode code="completed" />
+              <effectiveTime value="20230227" />
+              <routeCode nullFlavor="UNK" />
+              <doseQuantity nullFlavor="UNK" />
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.54" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.54" extension="2014-06-09" />
+                  <manufacturedMaterial>
+                    <code code="52" displayName="Hep A, adult" codeSystemName="Vaccines administered (CVX)" codeSystem="2.16.840.1.113883.12.292">
+                      <originalText>
+                        <reference value="#immun-1" /></originalText>
+                    </code>
+                    <lotNumberText nullFlavor="NI" />
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <author>
+                <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                <time value="202302270225-0600" />
+                <assignedAuthor>
+                  <id root="2.16.840.1.113883.4.6" extension="4878683364" />
+                  <assignedPerson>
+                    <name>
+                      <prefix>Dr.</prefix>
+                      <given>Albert</given>
+                      <family>Davis</family>
+                    </name>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                    <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                    <name>CureMD Live ISSUESSSS</name>
+                    <telecom value="0411115423" />
+                  </representedOrganization>
+                </assignedAuthor>
+              </author>
+              <entryRelationship typeCode="RSON">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.53" />
+                  <id root="7601de48-e2e8-4ce6-bf14-c800420bfd7c" />
+                  <code code="PATOBJ" displayName="Patient objection" codeSystemName="HL7 ActNoImmunizationReason" codeSystem="2.16.840.1.113883.5.8" />
+                  <statusCode code="completed" />
+                </observation>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry typeCode="DRIV">
+            <substanceAdministration classCode="SBADM" moodCode="EVN" negationInd="false">
+              <templateId root="2.16.840.1.113883.10.20.22.4.52" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.52" extension="2015-08-01" />
+              <id root="d9c76632-ff4d-42f2-95b9-12ca1f1a769d" />
+              <statusCode code="completed" />
+              <effectiveTime value="20230227" />
+              <routeCode code="C28161" displayName="INTRAMUSCULAR" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" />
+              <doseQuantity value="0.5" unit="ml" />
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.54" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.54" extension="2014-06-09" />
+                  <manufacturedMaterial>
+                    <code code="212" displayName="COVID-19 vaccine, vector-nr, rS-Ad26, PF, 0.5 mL" codeSystemName="Vaccines administered (CVX)" codeSystem="2.16.840.1.113883.12.292">
+                      <originalText>
+                        <reference value="#immun-2" /></originalText>
+                    </code>
+                    <lotNumberText>test</lotNumberText>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <author>
+                <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                <time value="202302270219-5400" />
+                <assignedAuthor>
+                  <id root="2.16.840.1.113883.4.6" extension="4878683364" />
+                  <assignedPerson>
+                    <name>
+                      <prefix>Dr.</prefix>
+                      <given>Albert</given>
+                      <family>Davis</family>
+                    </name>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                    <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                    <name>CureMD Live ISSUESSSS</name>
+                    <telecom value="0411115423" />
+                  </representedOrganization>
+                </assignedAuthor>
+              </author>
+            </substanceAdministration>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.4" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.4.1" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.4.1" extension="2015-08-01" />
+          <code code="8716-3" displayName="Vital signs" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+          <title>Vital Signs</title>
+          <text>
+            <table border="1" width="100%">
+              <thead>
+                <tr>
+                  <th>LOINC Code</th>
+                  <th>Vital Name</th>
+                  <th>Value</th>
+                  <th>Date Performed</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>39156-5</td>
+                  <td>
+                    <content ID="vital-1">BMI</content>
+                  </td>
+                  <td>25.25 kg/m2</td>
+                  <td>February 27, 2023, 02:28:00 </td>
+                </tr>
+                <tr>
+                  <td>8302-2</td>
+                  <td>
+                    <content ID="vital-2">Height</content>
+                  </td>
+                  <td>178 cm</td>
+                  <td>February 27, 2023, 02:28:00 </td>
+                </tr>
+                <tr>
+                  <td>29463-7</td>
+                  <td>
+                    <content ID="vital-3">Weight</content>
+                  </td>
+                  <td>80 kg</td>
+                  <td>February 27, 2023, 02:28:00 </td>
+                </tr>
+                <tr>
+                  <td>8480-6</td>
+                  <td>
+                    <content ID="vital-4">Systolic BP</content>
+                  </td>
+                  <td>145 mm[Hg]</td>
+                  <td>February 27, 2023, 02:28:00 </td>
+                </tr>
+                <tr>
+                  <td>8462-4</td>
+                  <td>
+                    <content ID="vital-5">Diastolic BP</content>
+                  </td>
+                  <td>88 mm[Hg]</td>
+                  <td>February 27, 2023, 02:28:00 </td>
+                </tr>
+                <tr>
+                  <td>8867-4</td>
+                  <td>
+                    <content ID="vital-6">Pulse Rate</content>
+                  </td>
+                  <td>80 /min</td>
+                  <td>February 27, 2023, 02:28:00 </td>
+                </tr>
+                <tr>
+                  <td>8310-5</td>
+                  <td>
+                    <content ID="vital-7">Body Temperature</content>
+                  </td>
+                  <td>38 Cel</td>
+                  <td>February 27, 2023, 02:28:00 </td>
+                </tr>
+                <tr>
+                  <td>9279-1</td>
+                  <td>
+                    <content ID="vital-8">Respiratory Rate</content>
+                  </td>
+                  <td>18 /min</td>
+                  <td>February 27, 2023, 02:28:00 </td>
+                </tr>
+                <tr>
+                  <td>59408-5</td>
+                  <td>
+                    <content ID="vital-9">O2 % BldC Oximetry</content>
+                  </td>
+                  <td>95 %</td>
+                  <td>February 27, 2023, 02:28:00 </td>
+                </tr>
+                <tr>
+                  <td>3150-0</td>
+                  <td>
+                    <content ID="vital-10">Inhaled Oxygen Concentration</content>
+                  </td>
+                  <td>36 %</td>
+                  <td>February 27, 2023, 02:28:00 </td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry typeCode="DRIV">
+            <organizer classCode="CLUSTER" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.26" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.26" extension="2015-08-01" />
+              <id root="1ef74980-4244-4b36-9a34-3da7b641f265" />
+              <code code="46680005" displayName="Vital signs" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
+                <translation code="74728-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Vital signs, weight, height, head circumference, oximetry, BMI, and BSA panel" />
+              </code>
+              <statusCode code="completed" />
+              <effectiveTime value="20230227022800" />
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09" />
+                  <id root="4778ae94-ac90-42db-9e2f-7c9475afb99b" />
+                  <code code="39156-5" displayName="BMI" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+                  <text>
+                    <reference value="#vital-1" />
+                  </text>
+                  <statusCode code="completed" />
+                  <effectiveTime value="20230227022800" />
+                  <value xsi:type="PQ" value="25.25" unit="kg/m2" />
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="202302270231-1300" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" extension="4878683364" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Dr.</prefix>
+                          <given>Albert</given>
+                          <family>Davis</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09" />
+                  <id root="f9c3ae7e-bbad-4072-93f3-9078da1d182f" />
+                  <code code="8302-2" displayName="Height" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+                  <text>
+                    <reference value="#vital-2" />
+                  </text>
+                  <statusCode code="completed" />
+                  <effectiveTime value="20230227022800" />
+                  <value xsi:type="PQ" value="178" unit="cm" />
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="202302270231-1300" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" extension="4878683364" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Dr.</prefix>
+                          <given>Albert</given>
+                          <family>Davis</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09" />
+                  <id root="bb636e13-4b13-4e80-bddd-7bc356b41baa" />
+                  <code code="29463-7" displayName="Weight" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+                  <text>
+                    <reference value="#vital-3" />
+                  </text>
+                  <statusCode code="completed" />
+                  <effectiveTime value="20230227022800" />
+                  <value xsi:type="PQ" value="80" unit="kg" />
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="202302270231-1300" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" extension="4878683364" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Dr.</prefix>
+                          <given>Albert</given>
+                          <family>Davis</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09" />
+                  <id root="c3aac368-dec9-4a02-82a1-26136cf88e36" />
+                  <code code="8480-6" displayName="Systolic BP" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+                  <text>
+                    <reference value="#vital-4" />
+                  </text>
+                  <statusCode code="completed" />
+                  <effectiveTime value="20230227022800" />
+                  <value xsi:type="PQ" value="145" unit="mm[Hg]" />
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="202302270231-1300" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" extension="4878683364" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Dr.</prefix>
+                          <given>Albert</given>
+                          <family>Davis</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09" />
+                  <id root="1df7e912-9226-4f6f-a2c4-9411cd859b83" />
+                  <code code="8462-4" displayName="Diastolic BP" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+                  <text>
+                    <reference value="#vital-5" />
+                  </text>
+                  <statusCode code="completed" />
+                  <effectiveTime value="20230227022800" />
+                  <value xsi:type="PQ" value="88" unit="mm[Hg]" />
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="202302270231-1300" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" extension="4878683364" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Dr.</prefix>
+                          <given>Albert</given>
+                          <family>Davis</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09" />
+                  <id root="d9a29fc0-2d0b-43de-91e5-1867afcf6a94" />
+                  <code code="8867-4" displayName="Pulse Rate" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+                  <text>
+                    <reference value="#vital-6" />
+                  </text>
+                  <statusCode code="completed" />
+                  <effectiveTime value="20230227022800" />
+                  <value xsi:type="PQ" value="80" unit="/min" />
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="202302270231-1300" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" extension="4878683364" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Dr.</prefix>
+                          <given>Albert</given>
+                          <family>Davis</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09" />
+                  <id root="3a38be67-4865-402a-a118-7f514d9be364" />
+                  <code code="8310-5" displayName="Body Temperature" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+                  <text>
+                    <reference value="#vital-7" />
+                  </text>
+                  <statusCode code="completed" />
+                  <effectiveTime value="20230227022800" />
+                  <value xsi:type="PQ" value="38" unit="Cel" />
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="202302270231-1300" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" extension="4878683364" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Dr.</prefix>
+                          <given>Albert</given>
+                          <family>Davis</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09" />
+                  <id root="aa51b804-5f11-4a43-ba25-2589cee1cd45" />
+                  <code code="9279-1" displayName="Respiratory Rate" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+                  <text>
+                    <reference value="#vital-8" />
+                  </text>
+                  <statusCode code="completed" />
+                  <effectiveTime value="20230227022800" />
+                  <value xsi:type="PQ" value="18" unit="/min" />
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="202302270231-1300" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" extension="4878683364" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Dr.</prefix>
+                          <given>Albert</given>
+                          <family>Davis</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09" />
+                  <id root="07eeff51-b38f-493c-a4e4-8fa1dcd72980" />
+                  <code code="59408-5" displayName="O2 % BldC Oximetry" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+                  <text>
+                    <reference value="#vital-9" />
+                  </text>
+                  <statusCode code="completed" />
+                  <effectiveTime value="20230227022800" />
+                  <value xsi:type="PQ" value="95" unit="%" />
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="202302270231-1300" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" extension="4878683364" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Dr.</prefix>
+                          <given>Albert</given>
+                          <family>Davis</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09" />
+                  <id root="1e53bee6-aaff-43e5-9f57-db6500d09407" />
+                  <code code="3150-0" displayName="Inhaled Oxygen Concentration" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+                  <text>
+                    <reference value="#vital-10" />
+                  </text>
+                  <statusCode code="completed" />
+                  <effectiveTime value="20230227022800" />
+                  <value xsi:type="PQ" value="36" unit="%" />
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                    <time value="202302270231-1300" />
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" extension="4878683364" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Dr.</prefix>
+                          <given>Albert</given>
+                          <family>Davis</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                        <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <telecom value="0411115423" />
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.17" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.17" extension="2015-08-01" />
+          <code code="29762-2" codeSystem="2.16.840.1.113883.6.1" displayName="Social History" />
+          <title>Social History</title>
+          <text>
+            <content ID="soc-1" />Not included in this report / available at patient request.
+        </text>
+          <entry typeCode="DRIV">
+            <observation classCode="OBS" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.78" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.78" extension="2014-06-09" />
+              <id root="115d555d-a2f4-4cf0-9456-1a1f58cc54fe" />
+              <code code="72166-2" codeSystem="2.16.840.1.113883.6.1" displayName="Tobacco smoking status NHIS" />
+              <statusCode code="completed" />
+              <effectiveTime nullFlavor="NI" />
+              <value xsi:type="CD" nullFlavor="NI">
+                <originalText>
+                  <reference value="#soc-1" />
+                </originalText>
+              </value>
+            </observation>
+          </entry>
+          <entry>
+            <observation classCode="OBS" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.200" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.200" extension="2016-06-01" />
+              <code code="76689-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Sex Assigned At Birth" />
+              <statusCode code="completed" />
+              <value xsi:type="CD" code="M" displayName="Male" codeSystemName="AdministrativeGender" codeSystem="2.16.840.1.113883.5.1" />
+            </observation>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.7" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.7.1" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.7.1" extension="2014-06-09" />
+          <code code="47519-4" displayName="History of Procedures" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+          <title>Procedures</title>
+          <text>
+            <table border="1" width="100%">
+              <thead>
+                <tr>
+                  <th>Procedure</th>
+                  <th>Date</th>
+                  <th>Status</th>
+                  <th>Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <content ID="proc-1"> Removal of hydrocele</content>
+                  </td>
+                  <td>August 24, 2017</td>
+                  <td>completed</td>
+                  <td ID="procNote-1">
+                    <paragraph></paragraph>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <content ID="proc-2">PSYCHOTHERAPY PT&amp;/FAMILY W/E&amp;M SRVCS 30 MIN</content>
+                  </td>
+                  <td>July 18, 2017</td>
+                  <td>completed</td>
+                  <td ID="procNote-2">
+                    <paragraph>test</paragraph>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry typeCode="DRIV">
+            <procedure classCode="PROC" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.14" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.14" extension="2014-06-09" />
+              <id root="d3a5909e-e83c-4ff6-9800-d32f61bad85e" />
+              <code code="55500" displayName=" Removal of hydrocele" codeSystemName="CPT-4" codeSystem="2.16.840.1.113883.6.12">
+                <originalText>
+                  <reference value="#proc-1" />
+                </originalText>
+              </code>
+              <statusCode code="completed" />
+              <effectiveTime value="20170824" />
+              <performer>
+                <assignedEntity>
+                  <id extension="2981823" root="2.16.840.1.113883.19.5.9999.456" />
+                  <addr use="WP">
+                    <streetAddressLine>Test Adress 123</streetAddressLine>
+                    <streetAddressLine>Davis Rd</streetAddressLine>
+                    <city>Lahore</city>
+                    <state nullFlavor="NI" />
+                    <postalCode nullFlavor="NI" />
+                    <country nullFlavor="NI" />
+                  </addr>
+                  <telecom value="tel:+1-345-345-2432" use="HP" />
+                  <telecom value="tel:+1-041-111-5423" use="WP" />
+                  <representedOrganization classCode="ORG">
+                    <id root="2.16.840.1.113883.19.5.9999.1393" />
+                    <name>CureMD Live ISSUESSSS</name>
+                    <telecom value="tel:+1-041-111-5423" use="WP" />
+                    <addr use="WP">
+                      <streetAddressLine>Test Adress 123</streetAddressLine>
+                      <streetAddressLine>Davis Rd</streetAddressLine>
+                      <city>Lahore</city>
+                      <state>NY</state>
+                      <postalCode>54000</postalCode>
+                      <country>US</country>
+                    </addr>
+                  </representedOrganization>
+                </assignedEntity>
+              </performer>
+              <author>
+                <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                <time value="201708240538-5100" />
+                <assignedAuthor>
+                  <id nullFlavor="UNK" />
+                  <representedOrganization>
+                    <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                    <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                    <name>CureMD Live ISSUESSSS</name>
+                    <telecom value="0411115423" />
+                  </representedOrganization>
+                </assignedAuthor>
+              </author>
+            </procedure>
+          </entry>
+          <entry typeCode="DRIV">
+            <procedure classCode="PROC" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.14" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.14" extension="2014-06-09" />
+              <id root="91740a51-bb91-4860-9f27-3abdbb140b30" />
+              <code code="0000M" displayName="PSYCHOTHERAPY PT&amp;/FAMILY W/E&amp;M SRVCS 30 MIN" codeSystemName="CPT-4" codeSystem="2.16.840.1.113883.6.12">
+                <originalText>
+                  <reference value="#proc-2" />
+                </originalText>
+              </code>
+              <statusCode code="completed" />
+              <effectiveTime value="20170718" />
+              <performer>
+                <assignedEntity>
+                  <id extension="2981823" root="2.16.840.1.113883.19.5.9999.456" />
+                  <addr use="WP">
+                    <streetAddressLine>Test Adress 123</streetAddressLine>
+                    <streetAddressLine>Davis Rd</streetAddressLine>
+                    <city>Lahore</city>
+                    <state nullFlavor="NI" />
+                    <postalCode nullFlavor="NI" />
+                    <country nullFlavor="NI" />
+                  </addr>
+                  <telecom value="tel:+1-345-345-2432" use="HP" />
+                  <telecom value="tel:+1-041-111-5423" use="WP" />
+                  <representedOrganization classCode="ORG">
+                    <id root="2.16.840.1.113883.19.5.9999.1393" />
+                    <name>CureMD Live ISSUESSSS</name>
+                    <telecom value="tel:+1-041-111-5423" use="WP" />
+                    <addr use="WP">
+                      <streetAddressLine>Test Adress 123</streetAddressLine>
+                      <streetAddressLine>Davis Rd</streetAddressLine>
+                      <city>Lahore</city>
+                      <state>NY</state>
+                      <postalCode>54000</postalCode>
+                      <country>US</country>
+                    </addr>
+                  </representedOrganization>
+                </assignedEntity>
+              </performer>
+              <author>
+                <templateId root="2.16.840.1.113883.10.20.22.5.6" extension="2019-10-01" />
+                <time value="201707190706-4800" />
+                <assignedAuthor>
+                  <id nullFlavor="UNK" />
+                  <representedOrganization>
+                    <id root="2.16.840.1.113883.5.1008" extension="112211222" />
+                    <id root="2.16.840.1.113883.4.6" nullFlavor="UNK" />
+                    <name>CureMD Live ISSUESSSS</name>
+                    <telecom value="0411115423" />
+                  </representedOrganization>
+                </assignedAuthor>
+              </author>
+              <entryRelationship typeCode="COMP">
+                <act classCode="ACT" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.202" extension="2016-11-01" />
+                  <code code="34109-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Note">
+                    <translation code="28570-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Procedure note" />
+                  </code>
+                  <text>
+                    <reference value="#procNote-2" />
+                  </text>
+                  <statusCode code="completed" />
+                  <effectiveTime value="20170718" />
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+                    <time value="201707190706-4800" />
+                    <assignedAuthor>
+                      <id root="d8a97ad2-b180-4303-a785-d0344e27f1e3" />
+                      <assignedPerson>
+                        <name>
+                          <prefix>Mr.</prefix>
+                          <given>aaaaa</given>
+                          <family>Best</family>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.19.5" />
+                        <name>CureMD Live ISSUESSSS</name>
+                        <addr>
+                          <streetAddressLine nullFlavor="NI" />
+                          <city nullFlavor="NI" />
+                          <state nullFlavor="NI" />
+                          <postalCode nullFlavor="NI" />
+                        </addr>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                </act>
+              </entryRelationship>
+            </procedure>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section nullFlavor="NI">
+          <templateId root="2.16.840.1.113883.10.20.22.2.3" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.3.1" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.3.1" extension="2015-08-01" />
+          <code code="30954-2" displayName="Lab Result" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+          <title>Results</title>
+          <text>
+            <content ID="results1">Not included in this report / available at patient request.</content>
+          </text>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1" />
+              <id root="d3e2a547-a90a-48cf-9cf1-a1ff08dd9900" />
+              <code nullFlavor="NI" />
+              <statusCode code="completed" />
+              <effectiveTime>
+                <low nullFlavor="NI" />
+                <high value="20131210071200-0500" />
+              </effectiveTime>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2" />
+                  <id root="b5e2df86-1428-413c-b2fb-42a483403861" />
+                  <code nullFlavor="NI" />
+                  <text>
+                    <reference value="#results1" />
+                  </text>
+                  <statusCode code="completed" />
+                  <effectiveTime>
+                    <low nullFlavor="NI" />
+                    <high value="20131210071200-0500" />
+                  </effectiveTime>
+                  <value xsi:type="PQ" nullFlavor="NI" />
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.65" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.65" extension="2016-11-01" />
+          <code code="18748-4" displayName="Imaging Narrative Note" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+          <title>Imaging Narrative Note</title>
+          <text>
+            <list>
+              <item ID="ImageNarrativeNote-1">
+                <paragraph>Not included in this report / available at patient request.</paragraph>
+              </item>
+            </list>
+          </text>
+          <entry>
+            <act classCode="ACT" moodCode="EVN" negationInd="true">
+              <templateId root="2.16.840.1.113883.10.20.22.4.202" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.202" extension="2016-11-01" />
+              <code code="34109-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Note">
+                <translation code="18748-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Imaging Narrative Note" />
+              </code>
+              <text>
+                <reference value="#ImageNarrativeNote-1" />
+              </text>
+              <statusCode code="completed" />
+              <effectiveTime nullFlavor="NA" />
+              <author>
+                <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+                <time nullFlavor="NA" />
+                <assignedAuthor>
+                  <id nullFlavor="NI" />
+                  <representedOrganization>
+                    <id nullFlavor="NI" />
+                    <name />
+                  </representedOrganization>
+                </assignedAuthor>
+              </author>
+            </act>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.23" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.23" extension="2014-06-09" />
+          <code code="46264-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medical Equipment" />
+          <title>Implantable Devices</title>
+          <text>
+            <content ID="Implant">No Implanted Devices</content>
+          </text>
+          <entry>
+            <procedure classCode="PROC" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.14" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.14" extension="2014-06-09" />
+              <id root="6af8592e-7206-47db-83c4-149036f8a402" />
+              <code nullFlavor="UNK" />
+              <statusCode code="active" />
+              <effectiveTime>
+                <low nullFlavor="NI" />
+                <high nullFlavor="NI" />
+              </effectiveTime>
+            </procedure>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section nullFlavor="NI">
+          <templateId root="2.16.840.1.113883.10.20.22.2.8" />
+          <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" code="51848-0" displayName="ASSESSMENTS" />
+          <title>Assessments</title>
+          <text>Not included in this report / available at patient request.</text>
+        </section>
+      </component>
+      <component>
+        <section nullFlavor="NI">
+          <templateId root="2.16.840.1.113883.10.20.22.2.10" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.10" extension="2014-06-09" />
+          <code code="18776-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Treatment Plan" />
+          <title>Treatment Plan</title>
+          <text>Not included in this report / available at patient request.</text>
+        </section>
+      </component>
+      <component>
+        <section nullFlavor="NI">
+          <templateId root="2.16.840.1.113883.10.20.22.2.60" />
+          <code code="61146-7" displayName="Goals" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+          <title>Goals</title>
+          <text>Not included in this report / available at patient request.</text>
+        </section>
+      </component>
+      <component>
+        <section nullFlavor="NI">
+          <templateId root="2.16.840.1.113883.10.20.22.2.58" />
+          <code code="75310-3" displayName="Health Concerns Document" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+          <title>Health Concerns</title>
+          <text>Not included in this report / available at patient request.</text>
+        </section>
+      </component>
+      <component>
+        <section nullFlavor="NI">
+          <templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.1" />
+          <templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.1" extension="2014-06-09" />
+          <code code="42349-1" displayName="REASON FOR REFERRAL" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+          <title>Reason For Referral</title>
+          <text>Not included in this report / available at patient request.</text>
+        </section>
+      </component>
+      <component>
+        <section nullFlavor="NI">
+          <templateId root="2.16.840.1.113883.10.20.22.2.14" extension="2014-06-09" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.14" />
+          <code code="47420-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Functional Status" />
+          <title>Functional Status</title>
+          <text>Not included in this report / available at patient request.</text>
+        </section>
+      </component>
+      <component>
+        <section nullFlavor="NI">
+          <templateId root="2.16.840.1.113883.10.20.22.2.56" extension="2015-08-01" />
+          <code code="10190-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="MENTAL STATUS" />
+          <title>Cognitive Status</title>
+          <text>Not included in this report / available at patient request.</text>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</ClinicalDocument>
